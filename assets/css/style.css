@@ -7,13 +7,13 @@
 .piano-key {
     width: 80px;
     height: 300px;
-    margin: 30px 5px;
     border: #313131 2px solid;
     background-color: #fff;
     cursor: pointer;
 }
 
-.piano-key:active {
+.piano-key:active,
+.piano-key.active {
     background-color: #313131;
     color: #fff;
 }
